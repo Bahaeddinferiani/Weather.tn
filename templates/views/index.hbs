@@ -10,7 +10,13 @@
 
 <body>
     <div class="main-content">
-        {{>header}}
+        <header>
+            <h1>weather<span>.tn</span></h1>
+        
+  <a href="/">Weather</a>
+  <a href="/about">About</a>
+  <a href="/help">Help</a></header>
+         
 
         <p>Use this site to get your weather!</p>
 
@@ -20,7 +26,18 @@
         </form>
 
         <p id="message-1"></p>
-        <p id="message-2"></p>
+           <td colspan="2"><p id="message-2"></p></td>
+        <table class="" id="tabo">
+            <tr>
+             
+            </tr>
+            <tr>
+                <td><p id="message-3"></p></td>
+                <td><img src="" id="image" alt="" height="25px"/></td>
+
+            </tr>
+        </table>
+        
     </div>
 
     {{>footer}}
