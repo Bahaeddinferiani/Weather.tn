@@ -53,6 +53,10 @@ button {
   color: white;
   padding: 8px;
 }
-span {
+span,
+#message-1 {
   color: #f85a5a;
+}
+button {
+  background-color: #f85a5a;
 }
